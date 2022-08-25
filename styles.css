@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.jumbotron {
+	text-align: center;
+}
+
+.registration-form, .login-form{
+	width: 800px;
+	margin: 10px auto;
+	border-radius: 20px;
+	padding: 10px 10px 30px;
+	box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.login-form {
+	margin-top: 100px;
+	padding: 10px 30px 30px;
+}
+
+.sign-up-title, .login-title, .button-wrapper {
+	text-align: center;
+}
+
+.signup-alert, .login-alert {
+	margin: 10px auto 20px;
+	display: none;
+}
+
+.login-alert {
+	width: 75%;
+}
+.fname, .email, .password, .tnC{
+	margin-bottom: 35px;
+}
+
+footer{
+    height: 20rem;
+    background-color: rgb(3, 3, 3);
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.fTitle{
+    padding: 3%;
+}
+
+.text{
+    padding-left: 4.5rem;
+}
+
+i{
+    padding: 1rem;
+    border-radius: 50%; 
+    margin-left: 0.8rem;
+}
+
+.fa-facebook-f{
+    background-color: #374da3;
+    color: white;
+}
+
+.fa-twitter {
+    background-color: #1897ba;
+    color: white;
+}
+
+.fa-instagram{
+    background-color: #f786c2;
+    color: white;
+}
+
+.fa-linkedin-in{
+    background-color: #0b4e8c;
+    color: white;
+}
+
+.fa-youtube{
+    background-color: red;
+    color: white;
+}
+
+.socialMedia{
+    padding-right: 13rem;
+}
+
+.links{
+    margin-top: 3%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #374da3;
+}
+
+.links-heading:before{
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 1px;
+    bottom: 0;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.links-heading {
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.copyright{
+    margin-top: 3%;
+    width: auto;
+    height: 20%;
+    background-color: rgb(91, 88, 88);
+    color: black;
+    padding: 1rem 16rem 0.3rem 7.5rem;
+}
