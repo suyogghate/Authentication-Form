@@ -68,15 +68,21 @@
 			<div class="col-md-6">
 				<label for="signup-first-name" class="form-label">First name</label>
 				<input type="text" class="form-control" id="signup-first-name" required autocomplete="off">
-				<div class="valid-feedback">
+				<div class="valid-feedback" id="first-name-valid">
 					Looks good!
+				</div>
+				<div class="invalid-feedback" id="first-name-invalid">
+					Please enter a valid first name.
 				</div>
 			</div>
 			<div class="col-md-6">
 				<label for="signup-last-name" class="form-label">Last name</label>
 				<input type="text" class="form-control" id="signup-last-name" required autocomplete="off">
-				<div class="valid-feedback">
+				<div class="valid-feedback" id="last-name-valid">
 					Looks good!
+				</div>
+				<div class="invalid-feedback" id="last-name-invalid">
+					Please enter a valid last name.
 				</div>
 			</div>
 			<div class="col-md-6">
@@ -87,7 +93,10 @@
 					</div>
 					<input type="text" class="form-control" id="signup-email" aria-describedby="inputGroupPrepend"
 						required autocomplete="off">
-					<div class="invalid-feedback">
+					<div class="valid-feedback" id="email-valid">
+						Looks good!
+					</div>
+					<div class="invalid-feedback" id="email-invalid">
 						Please enter a valid email.
 					</div>
 				</div>
@@ -100,7 +109,10 @@
 					</div>
 					<input type="text" class="form-control" id="signup-phone" aria-describedby="inputGroupPrepend"
 						required autocomplete="off">
-					<div class="invalid-feedback">
+					<div class="valid-feedback" id="phone-valid">
+						Looks good!
+					</div>
+					<div class="invalid-feedback" id="phone-invalid">
 						Please enter a valid phone number.
 					</div>
 				</div>
@@ -108,24 +120,33 @@
 			<div class="col-md-6">
 				<label for="signup-password" class="form-label">Password</label>
 				<input type="password" class="form-control" id="signup-password" required autocomplete="off">
-				<div class="invalid-feedback">
+				<div class="valid-feedback" id="password-valid">
+					Looks good!
+				</div>
+				<div class="invalid-feedback" id="password-invalid">
 					Please provide a valid password.
 				</div>
 			</div>
 			<div class="col-md-6">
 				<label for="signup-confirm-password" class="form-label">Confirm Password</label>
 				<input type="password" class="form-control" id="signup-confirm-password" required autocomplete="off">
-				<div class="invalid-feedback">
+				<div class="valid-feedback" id="confirm-password-valid">
+					Looks good!
+				</div>
+				<div class="invalid-feedback" id="confirm-password-invalid">
 					Password and confirm password do not match.
 				</div>
 			</div>
 			<div class="col-12">
 				<div class="form-check">
-					<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-					<label class="form-check-label" for="invalidCheck">
+					<input class="form-check-input" type="checkbox" value="" id="tnC" required>
+					<label class="form-check-label" for="tnC">
 						Agree to terms and conditions
 					</label>
-					<div class="invalid-feedback">
+					<div class="valid-feedback" id="tnC-valid">
+						Looks good!
+					</div>
+					<div class="invalid-feedback" id="tnC-invalid">
 						You must agree before submitting.
 					</div>
 				</div>

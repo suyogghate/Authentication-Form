@@ -119,3 +119,11 @@ a:hover{
     color: black;
     padding: 1rem 16rem 0.3rem 7.5rem;
 }
+
+.valid-feedback{
+    color: green;
+}
+
+.invalid-feedback{
+    color: red;
+}
